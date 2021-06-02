@@ -14,7 +14,7 @@ public class SeleniumExample {
 		System.setProperty("webdriver.ie.driver.loglevel", "DEBUG");
 		System.setProperty("webdriver.ie.driver.logfile", "IEDriverServer.log");
 		
-		WebDriver driver = new InternetExplorerDriver();
+		WebDriver driver = new InternetExplorerDriver(); 
 
 		driver.get("http://www.seoultech.ac.kr");
 		

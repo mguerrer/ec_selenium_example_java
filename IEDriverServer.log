@@ -1,0 +1,1908 @@
+I 2021-06-02 19:07:21:039 C:\Projects\webdriver\cpp\webdriver-server\server.cc(87) Starting WebDriver server on port: '25932' on host: ''
+I 2021-06-02 19:07:21:039 C:\Projects\webdriver\cpp\iedriver\IEServer.cpp(33) Driver version: 3.150.1.0 (32-bit)
+D 2021-06-02 19:07:21:399 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: GET /status {}
+D 2021-06-02 19:07:21:400 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"build" : 
+		{
+			"version" : "3.150.1.0 (32-bit)"
+		},
+		"message" : "Ready to create session",
+		"os" : 
+		{
+			"arch" : "x64",
+			"name" : "windows",
+			"version" : "10.0.19041.985 (WinBuild.160101.0800)"
+		},
+		"ready" : true
+	}
+}
+D 2021-06-02 19:07:21:627 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+    },
+    "browserName": "internet explorer",
+    "ensureCleanSession": true,
+    "version": "",
+    "platform": "WINDOWS"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "platformName": "windows",
+        "se:ieOptions": {
+        }
+      }
+    ]
+  }
+}
+D 2021-06-02 19:07:21:627 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(60) Mutex acquired for session initalization
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(116) Releasing session initialization mutex
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+    },
+    "browserName": "internet explorer",
+    "ensureCleanSession": true,
+    "version": "",
+    "platform": "WINDOWS"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "platformName": "windows",
+        "se:ieOptions": {
+        }
+      }
+    ]
+  }
+} }
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+    },
+    "browserName": "internet explorer",
+    "ensureCleanSession": true,
+    "version": "",
+    "platform": "WINDOWS"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "platformName": "windows",
+        "se:ieOptions": {
+        }
+      }
+    ]
+  }
+} }
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: newSession
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(48) Found W3C capabilities structure
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(199) Validating alwaysMatch capability set
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(673) Validating capabilities object
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(220) Validating firstMatch capability set with index 0
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(673) Validating capabilities object
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(722) Found browserName capability. Validating value type is string.
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(751) Found platformName capability. Validating value type is string.
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(989) Found se:ieOptions capability. Validating value type is object.
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(279) Processing matched capability set with index 0
+W 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(105) Invalid capability setting: timeouts is type null instead of object. Default value will be used: null
+
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(128) path before was 
+
+D 2021-06-02 19:07:21:634 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(130) path after was 06EB4AA0
+
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(154) Ignoring Protected Mode Settings: 0
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(157) Checking validity of Protected Mode settings.
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1212) Detected IE version: 11, Windows version supports Protected Mode: 1
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 1
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 2
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 3
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 4
+D 2021-06-02 19:07:21:635 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(160) Has Valid Protected Mode Settings: 1
+D 2021-06-02 19:07:21:643 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(258) Starting IE using the IELaunchURL API
+D 2021-06-02 19:07:22:011 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(212) IE launched successfully with process ID 24480
+D 2021-06-02 19:07:22:011 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(218) Process with ID 24480 is executing iexplore.exe
+D 2021-06-02 19:07:22:011 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(435) Using Active Accessibility to find IWebBrowser2 interface
+D 2021-06-02 19:07:22:635 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: GET /favicon.ico {}
+D 2021-06-02 19:07:22:635 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"error" : "unknown command",
+		"message" : "Command not found: GET /favicon.ico",
+		"stacktrace" : ""
+	}
+}
+D 2021-06-02 19:07:22:775 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1056) Looking for 24480
+D 2021-06-02 19:07:22:775 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(513) Found window handle 00220D06 for window with class 'Internet Explorer_Server' belonging to process with id 24480
+D 2021-06-02 19:07:22:864 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(456) Ignoring zoom setting: 0
+D 2021-06-02 19:07:22:927 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(777) Browser zoom level is 100%
+I 2021-06-02 19:07:22:936 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1368) Persistent hovering set to: 1
+D 2021-06-02 19:07:22:936 C:\Projects\webdriver\cpp\iedriver\ProxyManager.cpp(119) Using existing system proxy settings.
+D 2021-06-02 19:07:22:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for newSession complete
+D 2021-06-02 19:07:22:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"capabilities" : 
+		{
+			"acceptInsecureCerts" : false,
+			"browserName" : "internet explorer",
+			"browserVersion" : "11",
+			"pageLoadStrategy" : "normal",
+			"platformName" : "windows",
+			"proxy" : {},
+			"se:ieOptions" : 
+			{
+				"browserAttachTimeout" : 0,
+				"elementScrollBehavior" : 0,
+				"enablePersistentHover" : true,
+				"ie.browserCommandLineSwitches" : "",
+				"ie.edgechromium" : false,
+				"ie.edgepath" : "",
+				"ie.ensureCleanSession" : false,
+				"ie.fileUploadDialogTimeout" : 3000,
+				"ie.forceCreateProcessApi" : false,
+				"ignoreProtectedModeSettings" : false,
+				"ignoreZoomSetting" : false,
+				"initialBrowserUrl" : "http://localhost:25932/",
+				"nativeEvents" : true,
+				"requireWindowFocus" : false
+			},
+			"setWindowRect" : true,
+			"strictFileInteractability" : false,
+			"timeouts" : 
+			{
+				"implicit" : 0,
+				"pageLoad" : 300000,
+				"script" : 30000
+			},
+			"unhandledPromptBehavior" : "dismiss and notify"
+		},
+		"sessionId" : "966a6d29-fa0c-478b-8b63-d0a45361e0e7"
+	}
+}
+D 2021-06-02 19:07:22:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-02 19:07:22:962 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"capabilities" : 
+		{
+			"acceptInsecureCerts" : false,
+			"browserName" : "internet explorer",
+			"browserVersion" : "11",
+			"pageLoadStrategy" : "normal",
+			"platformName" : "windows",
+			"proxy" : {},
+			"se:ieOptions" : 
+			{
+				"browserAttachTimeout" : 0,
+				"elementScrollBehavior" : 0,
+				"enablePersistentHover" : true,
+				"ie.browserCommandLineSwitches" : "",
+				"ie.edgechromium" : false,
+				"ie.edgepath" : "",
+				"ie.ensureCleanSession" : false,
+				"ie.fileUploadDialogTimeout" : 3000,
+				"ie.forceCreateProcessApi" : false,
+				"ignoreProtectedModeSettings" : false,
+				"ignoreZoomSetting" : false,
+				"initialBrowserUrl" : "http://localhost:25932/",
+				"nativeEvents" : true,
+				"requireWindowFocus" : false
+			},
+			"setWindowRect" : true,
+			"strictFileInteractability" : false,
+			"timeouts" : 
+			{
+				"implicit" : 0,
+				"pageLoad" : 300000,
+				"script" : 30000
+			},
+			"unhandledPromptBehavior" : "dismiss and notify"
+		},
+		"sessionId" : "966a6d29-fa0c-478b-8b63-d0a45361e0e7"
+	}
+}
+D 2021-06-02 19:07:23:088 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/966a6d29-fa0c-478b-8b63-d0a45361e0e7/url {
+  "url": "http:\u002f\u002fwww.seoultech.ac.kr"
+}
+D 2021-06-02 19:07:23:089 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "get", "locator" : { "sessionid" : "966a6d29-fa0c-478b-8b63-d0a45361e0e7" }, "parameters" : {
+  "url": "http:\u002f\u002fwww.seoultech.ac.kr"
+} }
+D 2021-06-02 19:07:23:089 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "get", "locator" : { "sessionid" : "966a6d29-fa0c-478b-8b63-d0a45361e0e7" }, "parameters" : {
+  "url": "http:\u002f\u002fwww.seoultech.ac.kr"
+} }
+D 2021-06-02 19:07:23:089 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing get command
+D 2021-06-02 19:07:23:090 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-02 19:07:23:090 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: get
+D 2021-06-02 19:07:23:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for get complete
+D 2021-06-02 19:07:23:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(923) Command handler requested wait. This will cause a minimal wait of at least 50 milliseconds.
+D 2021-06-02 19:07:23:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:123 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://www.seoultech.ac.kr/, TargetFrame: 00000000
+D 2021-06-02 19:07:23:177 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:177 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:177 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:178 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:178 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:178 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:240 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:240 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:240 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:240 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:240 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:240 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:298 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:298 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:298 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:299 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:299 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:299 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:359 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:359 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:359 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:360 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:360 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:360 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:423 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:423 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:423 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:424 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:424 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:424 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:485 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:486 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:486 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:486 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:486 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:486 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:547 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:547 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:547 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:547 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:548 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:548 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:610 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:610 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:610 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:611 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:611 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:611 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:674 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:674 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:674 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:674 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:674 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:674 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:737 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:737 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:737 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:738 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:738 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:738 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:801 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:801 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:801 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:801 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:801 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:801 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:864 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:864 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:864 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:864 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:864 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:864 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:928 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:928 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:928 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:929 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:929 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:929 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:23:991 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:23:991 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:23:991 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:23:992 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:23:992 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:23:992 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:055 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:055 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:055 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:056 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:056 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:056 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:120 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:120 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:121 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:121 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:183 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:183 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:183 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:184 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:184 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:184 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:247 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:248 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:248 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:248 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:248 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:248 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:309 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:309 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:309 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:309 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:309 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:309 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:373 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:373 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:373 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:374 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:374 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:374 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:433 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:433 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:433 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:434 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:434 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:434 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:497 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:497 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:497 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:498 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:498 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:498 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:559 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:559 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:559 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:560 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:560 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:560 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:623 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:623 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:623 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:623 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:623 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:623 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:684 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:684 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:684 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:685 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:685 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:685 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:746 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:746 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:746 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:747 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:747 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:747 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:807 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:807 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:807 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:808 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:808 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:808 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:870 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:870 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:870 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:871 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:871 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:871 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:933 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:933 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:933 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:935 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:935 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:935 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:24:996 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:24:996 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:24:996 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:24:997 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:24:997 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:24:998 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:056 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:056 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:056 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:058 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:058 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:058 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:121 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:122 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:122 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:123 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:123 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:123 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:181 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:181 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:181 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:183 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:183 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:183 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:243 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:243 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:243 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:244 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:245 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:245 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:308 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:308 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:308 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:309 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:309 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:309 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:369 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:369 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:369 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:370 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:370 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:370 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:432 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:432 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:432 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:433 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:433 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:433 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:495 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:495 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:495 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:496 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:497 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:497 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:556 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:557 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:557 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:557 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:557 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:557 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:621 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:621 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:621 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:622 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:622 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:622 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:684 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:684 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:684 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:686 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:686 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:686 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:744 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:744 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:744 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:745 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:745 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:745 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:807 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:807 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:807 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:808 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:809 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:809 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:870 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:870 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:870 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:871 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:871 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:871 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:933 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:933 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:933 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:25:935 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:25:935 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:25:935 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:25:999 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:25:999 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:25:999 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:001 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:001 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:001 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:059 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:059 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:059 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:061 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:061 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:061 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:122 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:122 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:122 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:123 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:123 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:123 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:185 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:185 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:185 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:186 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:186 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:186 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:248 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:248 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:248 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:250 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:250 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:250 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:312 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:313 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:313 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:313 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:313 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:313 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:376 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:376 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:376 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:377 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:377 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:377 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:437 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:437 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:437 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:438 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:438 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:438 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:500 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:500 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:500 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:501 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:501 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:501 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:562 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:562 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:562 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:563 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:563 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:563 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:625 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:625 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:625 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:627 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:627 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:627 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:688 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:688 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:688 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:690 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:690 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:690 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:751 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:751 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:751 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:752 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:752 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:752 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:813 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:813 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:813 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:814 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:814 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:814 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:877 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:877 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:877 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:878 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:878 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:878 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:26:937 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:26:938 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:26:938 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:26:938 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:26:938 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:26:938 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:000 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:000 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:000 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:001 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:001 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:001 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:064 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:064 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:064 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:065 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:065 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:065 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:127 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:127 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:127 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:128 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:128 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:128 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:190 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:191 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:191 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:192 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:192 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:192 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:251 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:251 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:251 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:253 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:253 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:253 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:314 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:314 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:314 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:315 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:315 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:315 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:375 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:375 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:375 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:376 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:376 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:376 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:438 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:438 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:438 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:439 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:439 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:439 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:500 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:501 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:501 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:502 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:502 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:502 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:563 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:563 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:563 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:565 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:565 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:565 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:626 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:626 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:626 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:627 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:627 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:627 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:689 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:689 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:689 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:690 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:690 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:690 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:753 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:753 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:753 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:754 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:754 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:754 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:815 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:815 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:815 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:816 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:816 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:816 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:878 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:878 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:878 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:879 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:879 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:879 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:27:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:27:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:27:942 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:27:943 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:27:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:27:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:004 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:004 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:004 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:005 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:005 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:005 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:067 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:067 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:067 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:068 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:130 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:130 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:130 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:131 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:131 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:131 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:193 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:194 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:255 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:256 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:256 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:256 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:319 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:319 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:319 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:320 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:320 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:320 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:381 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:382 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:383 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:383 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:383 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:443 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:444 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:505 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:505 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:505 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:506 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:567 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:567 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:567 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:568 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:568 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:568 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:632 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:632 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:632 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:633 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:633 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:633 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:693 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:694 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:694 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:694 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:756 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:758 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:758 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:758 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:819 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:881 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:882 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:882 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:882 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:28:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:28:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:28:943 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:28:944 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:28:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:28:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:006 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:007 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:068 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:069 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:130 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:130 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:130 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:132 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:193 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:194 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:257 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:257 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:257 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:258 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:319 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:319 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:319 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:319 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:319 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:319 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:381 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:381 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:381 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:382 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:444 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:445 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:446 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:446 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:507 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:507 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:507 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:509 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:509 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:509 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:571 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:571 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:571 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:572 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:572 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:572 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:631 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:631 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:631 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:632 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:632 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:632 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:693 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:695 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:695 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:695 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:755 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:755 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:755 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:756 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:817 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:880 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:880 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:880 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:881 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:29:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:29:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:29:943 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:29:944 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:29:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:29:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:005 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:006 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:007 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:069 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:070 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:070 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:070 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:132 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:133 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:133 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:133 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:193 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:194 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:254 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:254 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:254 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:255 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:316 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:316 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:379 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:380 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:380 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:380 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:442 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:443 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:504 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:504 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:504 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:506 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:566 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:567 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:567 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:567 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:628 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:628 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:628 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:629 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:629 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:629 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:691 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:691 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:691 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:692 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:692 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:692 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:753 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:753 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:753 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:754 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:754 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:754 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:816 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:816 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:816 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:817 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:878 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:878 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:878 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:879 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:879 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:879 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:30:940 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:30:940 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:30:940 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:30:941 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:30:941 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:30:941 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:002 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:002 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:002 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:003 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:003 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:003 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:064 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:064 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:064 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:065 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:065 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:065 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:128 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:128 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:128 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:129 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:129 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:129 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:190 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:190 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:190 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:191 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:191 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:191 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:253 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:253 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:253 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:254 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:254 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:254 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:316 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:317 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:317 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:317 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:381 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:381 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:381 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:382 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:444 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:445 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:445 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:445 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:506 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:507 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:507 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:507 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:569 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:569 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:569 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:570 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:570 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:570 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:630 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:630 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:630 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:631 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:631 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:631 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:693 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:695 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:695 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:695 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:755 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:755 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:755 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:756 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:881 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:883 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:883 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:883 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:31:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:31:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:31:944 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:31:945 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:31:945 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:31:945 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:008 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:008 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:008 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:010 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:010 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:010 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:072 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:072 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:072 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:073 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:073 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:073 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:135 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:135 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:135 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:136 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:136 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:136 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:196 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:196 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:196 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:198 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:198 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:198 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:259 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:259 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:259 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:260 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:260 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:260 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:322 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:322 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:322 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:324 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:324 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:324 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:382 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:382 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:383 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:383 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:383 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:443 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:444 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:444 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:507 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:507 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:507 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:508 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:509 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:509 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:569 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:570 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:570 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:571 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:571 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:571 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:632 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:632 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:632 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:633 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:633 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:633 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:693 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:694 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:694 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:694 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:757 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:759 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:759 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:759 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:819 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:820 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:820 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:820 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:881 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:882 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:882 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:882 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:32:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:32:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:32:944 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:32:945 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:32:945 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:32:945 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:006 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:007 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:068 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:069 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:131 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:131 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:131 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:132 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:194 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:194 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:194 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:255 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:257 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:257 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:257 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:316 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:317 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:317 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:317 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:378 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:378 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:378 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:379 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:442 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:443 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:443 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:505 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:505 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:505 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:506 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:506 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:567 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:567 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:567 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:568 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:568 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:568 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:629 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:629 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:629 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:629 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:629 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:630 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:692 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:692 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:692 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:693 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:693 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:756 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:756 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:757 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:819 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:880 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:881 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:882 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:882 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:882 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:33:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:33:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:33:943 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:33:944 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:33:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:33:944 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:006 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:006 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:007 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:007 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:067 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:067 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:067 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:069 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:130 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:130 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:131 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:132 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:192 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:192 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:192 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:193 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:193 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:254 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:254 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:254 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:255 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:255 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:317 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:317 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:317 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:317 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:378 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:378 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:378 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:379 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:440 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:441 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:441 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:441 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:516 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:516 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:516 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:600 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:600 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:600 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:657 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:657 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:657 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:719 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:719 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:719 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:785 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:785 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:785 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:786 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:786 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:786 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:846 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:847 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:847 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:849 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:849 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:849 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:909 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:909 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:909 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:910 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:910 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:910 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:34:970 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:34:970 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:34:970 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:34:971 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:34:971 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:34:971 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:031 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:031 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:031 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:032 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:032 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:032 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:093 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:093 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:093 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:094 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:094 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:094 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:155 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:155 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:155 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:156 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:156 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:156 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:218 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:218 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:218 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:219 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:219 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:219 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:282 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:282 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:282 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:286 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:286 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:286 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:343 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:343 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:343 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:344 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:344 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:344 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:406 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:406 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:406 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:407 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:407 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:407 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:467 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:467 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:468 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:468 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:468 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:468 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:529 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:529 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:529 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:530 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:530 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:530 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:590 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:590 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:590 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:592 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:592 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:592 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:653 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:653 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:653 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:654 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:655 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:655 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:713 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:713 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:713 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:714 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:714 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:714 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:775 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:775 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:775 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:776 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:776 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:776 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:839 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:839 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:839 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:841 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:841 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:841 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:902 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:902 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:902 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:903 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:903 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:903 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:35:961 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:35:961 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:35:961 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:35:963 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:35:963 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:35:963 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:36:025 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:36:025 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:36:025 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:36:026 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:36:027 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:36:027 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:36:086 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:36:086 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:36:086 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:36:087 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-02 19:07:36:087 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-02 19:07:36:087 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-02 19:07:36:148 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-02 19:07:36:148 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-02 19:07:36:148 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-02 19:07:36:152 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-02 19:07:36:188 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(632) Not in navigating state
+D 2021-06-02 19:07:36:188 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(263) Wait complete. Setting serialized response to deferred value {
+	"value" : null
+}
+D 2021-06-02 19:07:36:196 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-02 19:07:39:206 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: DELETE /session/966a6d29-fa0c-478b-8b63-d0a45361e0e7 {}
+D 2021-06-02 19:07:39:206 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "quit", "locator" : { "sessionid" : "966a6d29-fa0c-478b-8b63-d0a45361e0e7" }, "parameters" : {} }
+D 2021-06-02 19:07:39:206 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "quit", "locator" : { "sessionid" : "966a6d29-fa0c-478b-8b63-d0a45361e0e7" }, "parameters" : {} }
+D 2021-06-02 19:07:39:206 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing quit command
+D 2021-06-02 19:07:39:207 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-02 19:07:39:207 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: quit
+D 2021-06-02 19:07:39:207 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for quit complete
+D 2021-06-02 19:07:39:207 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-02 19:07:39:207 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-02 19:07:39:329 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(157) Executor shutdown successful!
+D 2021-06-02 19:07:39:329 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(165) Posting thread shutdown message
+D 2021-06-02 19:07:39:329 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(168) Starting wait for thread completion
+D 2021-06-02 19:07:39:329 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(171) Waiting for thread to end returned 4294967295
+D 2021-06-02 19:07:39:329 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(793) Shutdown message received
+D 2021-06-02 19:07:39:329 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-02 19:07:39:330 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(129) Entering IECommandExecutor::OnDestroy
+D 2021-06-02 19:07:39:330 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(131) Clearing managed element cache
+D 2021-06-02 19:07:39:330 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(134) Closing command handler repository
+D 2021-06-02 19:07:39:330 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(136) Closing element finder
+D 2021-06-02 19:07:39:330 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(138) Closing input manager
+D 2021-06-02 19:07:39:330 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(140) Closing proxy manager
+D 2021-06-02 19:07:39:331 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(142) Closing browser factory
+D 2021-06-02 19:07:39:331 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(144) Posting quit message
+D 2021-06-02 19:07:39:331 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(146) Leaving IECommandExecutor::OnDestroy
+D 2021-06-02 19:07:39:331 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(795) Returned from DestroyWindow()
+D 2021-06-02 19:07:39:331 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(808) Exited IECommandExecutor thread message loop
