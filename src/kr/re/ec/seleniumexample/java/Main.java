@@ -13,10 +13,11 @@ public class Main {
 			System.setProperty("webdriver.ie.driver.logfile", "IEDriverServer.log");
 			InternetExplorerOptions options = new InternetExplorerOptions();
 			options.ignoreZoomSettings();
+			options.withInitialBrowserUrl("http://webqamanh/wmweb/");
 			
 			WebDriver driver = new InternetExplorerDriver(options); 
 	
-			driver.get("http://webqamanh/wmweb/");
+			//driver.get("http://webqamanh/wmweb/");
 			
 			driver.findElement(By.name("userID")).sendKeys("EB5235");
 			driver.findElement(By.name("userPassword")).sendKeys("PEPETAPIAD");
