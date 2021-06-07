@@ -1,0 +1,1730 @@
+I 2021-06-07 09:52:30:252 C:\Projects\webdriver\cpp\webdriver-server\server.cc(87) Starting WebDriver server on port: '17681' on host: ''
+I 2021-06-07 09:52:30:253 C:\Projects\webdriver\cpp\iedriver\IEServer.cpp(33) Driver version: 3.150.1.0 (32-bit)
+D 2021-06-07 09:52:30:663 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: GET /status {}
+D 2021-06-07 09:52:30:664 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"build" : 
+		{
+			"version" : "3.150.1.0 (32-bit)"
+		},
+		"message" : "Ready to create session",
+		"os" : 
+		{
+			"arch" : "x64",
+			"name" : "windows",
+			"version" : "10.0.19041.985 (WinBuild.160101.0800)"
+		},
+		"ready" : true
+	}
+}
+D 2021-06-07 09:52:30:916 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+      "ignoreZoomSetting": true
+    },
+    "browserName": "internet explorer",
+    "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+    "ignoreZoomSetting": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+          "ignoreZoomSetting": true
+        }
+      }
+    ]
+  }
+}
+D 2021-06-07 09:52:30:916 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(60) Mutex acquired for session initalization
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(116) Releasing session initialization mutex
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+      "ignoreZoomSetting": true
+    },
+    "browserName": "internet explorer",
+    "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+    "ignoreZoomSetting": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+          "ignoreZoomSetting": true
+        }
+      }
+    ]
+  }
+} }
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+      "ignoreZoomSetting": true
+    },
+    "browserName": "internet explorer",
+    "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+    "ignoreZoomSetting": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "initialBrowserUrl": "http:\u002f\u002fwebqamanh\u002fwmweb\u002f",
+          "ignoreZoomSetting": true
+        }
+      }
+    ]
+  }
+} }
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: newSession
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(48) Found W3C capabilities structure
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(199) Validating alwaysMatch capability set
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(673) Validating capabilities object
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(220) Validating firstMatch capability set with index 0
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(673) Validating capabilities object
+D 2021-06-07 09:52:30:924 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(722) Found browserName capability. Validating value type is string.
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(989) Found se:ieOptions capability. Validating value type is object.
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(279) Processing matched capability set with index 0
+W 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(105) Invalid capability setting: timeouts is type null instead of object. Default value will be used: null
+
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(128) path before was 
+
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(130) path after was 00C87C90
+
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(154) Ignoring Protected Mode Settings: 0
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(157) Checking validity of Protected Mode settings.
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1212) Detected IE version: 11, Windows version supports Protected Mode: 1
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 1
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 2
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 3
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 4
+D 2021-06-07 09:52:30:925 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(160) Has Valid Protected Mode Settings: 1
+D 2021-06-07 09:52:30:934 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(258) Starting IE using the IELaunchURL API
+D 2021-06-07 09:52:31:278 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(212) IE launched successfully with process ID 9812
+D 2021-06-07 09:52:31:278 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(218) Process with ID 9812 is executing iexplore.exe
+D 2021-06-07 09:52:31:278 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(435) Using Active Accessibility to find IWebBrowser2 interface
+D 2021-06-07 09:52:32:068 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(1056) Looking for 9812
+D 2021-06-07 09:52:32:068 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(513) Found window handle 002D0AE4 for window with class 'Internet Explorer_Server' belonging to process with id 9812
+D 2021-06-07 09:52:32:212 C:\Projects\webdriver\cpp\iedriver\BrowserFactory.cpp(456) Ignoring zoom setting: 1
+I 2021-06-07 09:52:32:212 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1368) Persistent hovering set to: 1
+D 2021-06-07 09:52:32:213 C:\Projects\webdriver\cpp\iedriver\ProxyManager.cpp(119) Using existing system proxy settings.
+D 2021-06-07 09:52:32:227 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for newSession complete
+D 2021-06-07 09:52:32:228 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"capabilities" : 
+		{
+			"acceptInsecureCerts" : false,
+			"browserName" : "internet explorer",
+			"browserVersion" : "11",
+			"pageLoadStrategy" : "normal",
+			"platformName" : "windows",
+			"proxy" : {},
+			"se:ieOptions" : 
+			{
+				"browserAttachTimeout" : 0,
+				"elementScrollBehavior" : 0,
+				"enablePersistentHover" : true,
+				"ie.browserCommandLineSwitches" : "",
+				"ie.edgechromium" : false,
+				"ie.edgepath" : "",
+				"ie.ensureCleanSession" : false,
+				"ie.fileUploadDialogTimeout" : 3000,
+				"ie.forceCreateProcessApi" : false,
+				"ignoreProtectedModeSettings" : false,
+				"ignoreZoomSetting" : true,
+				"initialBrowserUrl" : "http://webqamanh/wmweb/",
+				"nativeEvents" : true,
+				"requireWindowFocus" : false
+			},
+			"setWindowRect" : true,
+			"strictFileInteractability" : false,
+			"timeouts" : 
+			{
+				"implicit" : 0,
+				"pageLoad" : 300000,
+				"script" : 30000
+			},
+			"unhandledPromptBehavior" : "dismiss and notify"
+		},
+		"sessionId" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4"
+	}
+}
+D 2021-06-07 09:52:32:228 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:32:241 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"capabilities" : 
+		{
+			"acceptInsecureCerts" : false,
+			"browserName" : "internet explorer",
+			"browserVersion" : "11",
+			"pageLoadStrategy" : "normal",
+			"platformName" : "windows",
+			"proxy" : {},
+			"se:ieOptions" : 
+			{
+				"browserAttachTimeout" : 0,
+				"elementScrollBehavior" : 0,
+				"enablePersistentHover" : true,
+				"ie.browserCommandLineSwitches" : "",
+				"ie.edgechromium" : false,
+				"ie.edgepath" : "",
+				"ie.ensureCleanSession" : false,
+				"ie.fileUploadDialogTimeout" : 3000,
+				"ie.forceCreateProcessApi" : false,
+				"ignoreProtectedModeSettings" : false,
+				"ignoreZoomSetting" : true,
+				"initialBrowserUrl" : "http://webqamanh/wmweb/",
+				"nativeEvents" : true,
+				"requireWindowFocus" : false
+			},
+			"setWindowRect" : true,
+			"strictFileInteractability" : false,
+			"timeouts" : 
+			{
+				"implicit" : 0,
+				"pageLoad" : 300000,
+				"script" : 30000
+			},
+			"unhandledPromptBehavior" : "dismiss and notify"
+		},
+		"sessionId" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4"
+	}
+}
+D 2021-06-07 09:52:32:388 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/window/maximize {
+}
+D 2021-06-07 09:52:32:388 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "maximizeWindow", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+} }
+D 2021-06-07 09:52:32:388 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "maximizeWindow", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+} }
+D 2021-06-07 09:52:32:388 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing maximizeWindow command
+D 2021-06-07 09:52:32:388 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:32:389 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: maximizeWindow
+D 2021-06-07 09:52:32:389 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for maximizeWindow complete
+D 2021-06-07 09:52:32:389 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"height" : 1056,
+		"width" : 1936,
+		"x" : -8,
+		"y" : -1088
+	}
+}
+D 2021-06-07 09:52:32:389 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:32:410 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"height" : 1056,
+		"width" : 1936,
+		"x" : -8,
+		"y" : -1088
+	}
+}
+D 2021-06-07 09:52:32:426 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "*[name='userID']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:32:426 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "*[name='userID']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:32:426 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "*[name='userID']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:32:426 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:32:427 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:32:427 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+I 2021-06-07 09:52:32:427 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:32:610 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(50) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+I 2021-06-07 09:52:32:611 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:32:778 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:32:778 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:32:778 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "4e730c2c-a8df-4758-b9fd-9c771474c8a4"
+	}
+}
+D 2021-06-07 09:52:32:778 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:32:780 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "4e730c2c-a8df-4758-b9fd-9c771474c8a4"
+	}
+}
+D 2021-06-07 09:52:32:801 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/4e730c2c-a8df-4758-b9fd-9c771474c8a4/value {
+  "id": "4e730c2c-a8df-4758-b9fd-9c771474c8a4",
+  "text": "EB5235",
+  "value": [
+    "E",
+    "B",
+    "5",
+    "2",
+    "3",
+    "5"
+  ]
+}
+D 2021-06-07 09:52:32:802 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "4e730c2c-a8df-4758-b9fd-9c771474c8a4" }, "parameters" : {
+  "id": "4e730c2c-a8df-4758-b9fd-9c771474c8a4",
+  "text": "EB5235",
+  "value": [
+    "E",
+    "B",
+    "5",
+    "2",
+    "3",
+    "5"
+  ]
+} }
+D 2021-06-07 09:52:32:802 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "4e730c2c-a8df-4758-b9fd-9c771474c8a4" }, "parameters" : {
+  "id": "4e730c2c-a8df-4758-b9fd-9c771474c8a4",
+  "text": "EB5235",
+  "value": [
+    "E",
+    "B",
+    "5",
+    "2",
+    "3",
+    "5"
+  ]
+} }
+D 2021-06-07 09:52:32:802 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing sendKeys command
+D 2021-06-07 09:52:32:802 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:32:802 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: sendKeys
+I 2021-06-07 09:52:32:824 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:32:870 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:32:937 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+W 2021-06-07 09:52:33:027 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1569) X coordinate is out of element area
+D 2021-06-07 09:52:33:027 C:\Projects\webdriver\cpp\iedriver\Element.cpp(720) Will need to scroll element into view
+D 2021-06-07 09:52:33:029 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:33:078 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+W 2021-06-07 09:52:33:175 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1569) X coordinate is out of element area
+W 2021-06-07 09:52:33:175 C:\Projects\webdriver\cpp\iedriver\Element.cpp(740) Scrolled element is not in view
+D 2021-06-07 09:52:33:175 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 7, 106, 147, 22
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: E)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: E)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: B)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: B)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 5)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 5)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 2)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 2)
+D 2021-06-07 09:52:33:405 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 3)
+D 2021-06-07 09:52:33:406 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 3)
+D 2021-06-07 09:52:33:406 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 5)
+D 2021-06-07 09:52:33:406 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 5)
+D 2021-06-07 09:52:33:406 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: Unidentified)
+D 2021-06-07 09:52:33:406 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: Unidentified)
+D 2021-06-07 09:52:33:406 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 16 input events
+D 2021-06-07 09:52:33:597 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for sendKeys complete
+D 2021-06-07 09:52:33:597 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:33:597 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:33:597 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:33:603 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "*[name='userPassword']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:33:603 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "*[name='userPassword']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:33:603 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "*[name='userPassword']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:33:604 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:33:604 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:33:604 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+I 2021-06-07 09:52:33:604 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:33:699 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(50) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+I 2021-06-07 09:52:33:700 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:33:808 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:33:808 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:33:808 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "b655ef93-07be-439a-b94f-8cdbebe0cbea"
+	}
+}
+D 2021-06-07 09:52:33:808 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:33:817 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "b655ef93-07be-439a-b94f-8cdbebe0cbea"
+	}
+}
+D 2021-06-07 09:52:33:828 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/b655ef93-07be-439a-b94f-8cdbebe0cbea/value {
+  "id": "b655ef93-07be-439a-b94f-8cdbebe0cbea",
+  "text": "PEPETAPIAD",
+  "value": [
+    "P",
+    "E",
+    "P",
+    "E",
+    "T",
+    "A",
+    "P",
+    "I",
+    "A",
+    "D"
+  ]
+}
+D 2021-06-07 09:52:33:828 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "b655ef93-07be-439a-b94f-8cdbebe0cbea" }, "parameters" : {
+  "id": "b655ef93-07be-439a-b94f-8cdbebe0cbea",
+  "text": "PEPETAPIAD",
+  "value": [
+    "P",
+    "E",
+    "P",
+    "E",
+    "T",
+    "A",
+    "P",
+    "I",
+    "A",
+    "D"
+  ]
+} }
+D 2021-06-07 09:52:33:828 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "b655ef93-07be-439a-b94f-8cdbebe0cbea" }, "parameters" : {
+  "id": "b655ef93-07be-439a-b94f-8cdbebe0cbea",
+  "text": "PEPETAPIAD",
+  "value": [
+    "P",
+    "E",
+    "P",
+    "E",
+    "T",
+    "A",
+    "P",
+    "I",
+    "A",
+    "D"
+  ]
+} }
+D 2021-06-07 09:52:33:828 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing sendKeys command
+D 2021-06-07 09:52:33:828 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:33:828 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: sendKeys
+I 2021-06-07 09:52:33:839 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:33:874 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:33:912 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+W 2021-06-07 09:52:33:988 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1569) X coordinate is out of element area
+D 2021-06-07 09:52:33:988 C:\Projects\webdriver\cpp\iedriver\Element.cpp(720) Will need to scroll element into view
+D 2021-06-07 09:52:33:989 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:34:040 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+W 2021-06-07 09:52:34:139 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1569) X coordinate is out of element area
+W 2021-06-07 09:52:34:139 C:\Projects\webdriver\cpp\iedriver\Element.cpp(740) Scrolled element is not in view
+D 2021-06-07 09:52:34:139 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 7, 146, 147, 22
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: P)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: P)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: E)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: E)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: P)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: P)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: E)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: E)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: T)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: T)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: A)
+D 2021-06-07 09:52:34:562 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: A)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: P)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: P)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: I)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: I)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: A)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: A)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: D)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: D)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: Unidentified)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: Unidentified)
+D 2021-06-07 09:52:34:563 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 40 input events
+D 2021-06-07 09:52:34:797 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for sendKeys complete
+D 2021-06-07 09:52:34:797 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:34:797 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:34:798 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:34:808 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "*[name='Login']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:34:808 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "*[name='Login']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:34:808 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "*[name='Login']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:34:808 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:34:809 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:34:809 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+I 2021-06-07 09:52:34:809 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:34:918 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(50) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+I 2021-06-07 09:52:34:918 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:35:019 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:35:020 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:35:020 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "d82cf711-8c63-4259-8e8d-791cd149d4c1"
+	}
+}
+D 2021-06-07 09:52:35:020 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:35:032 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "d82cf711-8c63-4259-8e8d-791cd149d4c1"
+	}
+}
+D 2021-06-07 09:52:35:043 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/d82cf711-8c63-4259-8e8d-791cd149d4c1/click {
+  "id": "d82cf711-8c63-4259-8e8d-791cd149d4c1"
+}
+D 2021-06-07 09:52:35:043 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "d82cf711-8c63-4259-8e8d-791cd149d4c1" }, "parameters" : {
+  "id": "d82cf711-8c63-4259-8e8d-791cd149d4c1"
+} }
+D 2021-06-07 09:52:35:043 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "d82cf711-8c63-4259-8e8d-791cd149d4c1" }, "parameters" : {
+  "id": "d82cf711-8c63-4259-8e8d-791cd149d4c1"
+} }
+D 2021-06-07 09:52:35:043 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing click command
+D 2021-06-07 09:52:35:044 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:35:044 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: click
+I 2021-06-07 09:52:35:057 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:35:094 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:35:141 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+W 2021-06-07 09:52:35:214 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1569) X coordinate is out of element area
+D 2021-06-07 09:52:35:214 C:\Projects\webdriver\cpp\iedriver\Element.cpp(720) Will need to scroll element into view
+D 2021-06-07 09:52:35:215 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:35:257 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+W 2021-06-07 09:52:35:333 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1569) X coordinate is out of element area
+W 2021-06-07 09:52:35:333 C:\Projects\webdriver\cpp\iedriver\Element.cpp(740) Scrolled element is not in view
+D 2021-06-07 09:52:35:333 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 7, 207, 73, 24
+D 2021-06-07 09:52:35:458 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:35:470 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:35:506 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:35:507 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:35:552 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:35:593 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(451) Queueing SendInput structure for mouse move (origin: d82cf711-8c63-4259-8e8d-791cd149d4c1, x: 43, y: 219)
+D 2021-06-07 09:52:35:593 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(510) Queueing SendInput structure for mouse button down
+D 2021-06-07 09:52:35:593 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(533) Queueing SendInput structure for mouse button up
+D 2021-06-07 09:52:35:593 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 3 input events
+D 2021-06-07 09:52:35:696 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for click complete
+D 2021-06-07 09:52:35:696 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(923) Command handler requested wait. This will cause a minimal wait of at least 50 milliseconds.
+D 2021-06-07 09:52:35:696 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:35:696 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/main.asp, TargetFrame: 00000000
+D 2021-06-07 09:52:35:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:35:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:35:757 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:35:757 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-07 09:52:35:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:35:757 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:35:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:35:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:35:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:35:818 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-07 09:52:35:818 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:35:819 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:35:880 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:35:880 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:35:880 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:35:881 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-07 09:52:35:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:35:881 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:35:940 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: about:blank, TargetFrame: 06D7A284
+D 2021-06-07 09:52:35:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:35:942 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:35:942 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:35:943 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(583) Browser busy property is true.
+D 2021-06-07 09:52:35:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:35:943 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:35:945 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/bottom.asp?1202006, TargetFrame: 06D7A464
+D 2021-06-07 09:52:35:971 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/MenuTree.asp?1202006, TargetFrame: 00000000
+D 2021-06-07 09:52:35:974 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: about:blank, TargetFrame: 06D7A464
+D 2021-06-07 09:52:36:004 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:004 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:004 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:004 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:005 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:005 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:068 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:068 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:069 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:069 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:132 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:132 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:135 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:135 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:135 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:196 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:196 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:196 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:197 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:197 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:197 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:260 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:260 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:260 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:261 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:261 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:261 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:323 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:323 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:323 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:324 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:324 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:324 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:385 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:385 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:385 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:386 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:386 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:386 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:448 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:448 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:448 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:449 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:449 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:449 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:510 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:510 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:510 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:513 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:513 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:513 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:572 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:572 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:572 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:634 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(603) Browser ReadyState is not at least '4'; it was 3
+D 2021-06-07 09:52:36:634 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:36:634 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:36:695 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:36:695 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:36:695 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:36:700 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:36:770 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(632) Not in navigating state
+D 2021-06-07 09:52:36:770 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(263) Wait complete. Setting serialized response to deferred value {
+	"value" : null
+}
+D 2021-06-07 09:52:36:771 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:39:794 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/elements {
+  "value": "frame[name='fraBottom'],iframe[name='fraBottom']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:39:794 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraBottom'],iframe[name='fraBottom']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:39:794 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraBottom'],iframe[name='fraBottom']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:39:794 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElements command
+D 2021-06-07 09:52:39:795 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:39:795 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElements
+I 2021-06-07 09:52:39:795 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:39:905 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(127) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+I 2021-06-07 09:52:39:905 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:40:155 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:40:156 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElements complete
+D 2021-06-07 09:52:40:156 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+		}
+	]
+}
+D 2021-06-07 09:52:40:156 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:40:163 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+		}
+	]
+}
+D 2021-06-07 09:52:40:182 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/frame {
+  "id": {
+    "ELEMENT": "416f2f2a-04d3-4460-880f-18d1d1e161e3",
+    "element-6066-11e4-a52e-4f735466cecf": "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+  }
+}
+D 2021-06-07 09:52:40:182 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "416f2f2a-04d3-4460-880f-18d1d1e161e3",
+    "element-6066-11e4-a52e-4f735466cecf": "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+  }
+} }
+D 2021-06-07 09:52:40:182 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "416f2f2a-04d3-4460-880f-18d1d1e161e3",
+    "element-6066-11e4-a52e-4f735466cecf": "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+  }
+} }
+D 2021-06-07 09:52:40:182 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing switchToFrame command
+D 2021-06-07 09:52:40:183 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:40:183 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: switchToFrame
+I 2021-06-07 09:52:40:192 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:40:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for switchToFrame complete
+D 2021-06-07 09:52:40:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:40:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:40:273 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:40:279 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/elements {
+  "value": "frame[name='fraNavigator'],iframe[name='fraNavigator']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:40:279 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraNavigator'],iframe[name='fraNavigator']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:40:279 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraNavigator'],iframe[name='fraNavigator']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:40:279 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElements command
+D 2021-06-07 09:52:40:279 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:40:279 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElements
+D 2021-06-07 09:52:40:290 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(127) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+D 2021-06-07 09:52:40:569 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElements complete
+D 2021-06-07 09:52:40:569 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : []
+}
+D 2021-06-07 09:52:40:569 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:40:569 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : []
+}
+D 2021-06-07 09:52:40:575 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/elements {
+  "value": "frame#fraNavigator,iframe#fraNavigator",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:40:575 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame#fraNavigator,iframe#fraNavigator",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:40:575 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame#fraNavigator,iframe#fraNavigator",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:40:575 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElements command
+D 2021-06-07 09:52:40:575 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:40:575 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElements
+D 2021-06-07 09:52:40:584 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(127) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+D 2021-06-07 09:52:40:619 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:40:620 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElements complete
+D 2021-06-07 09:52:40:620 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4"
+		}
+	]
+}
+D 2021-06-07 09:52:40:620 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:40:632 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4"
+		}
+	]
+}
+D 2021-06-07 09:52:40:638 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/frame {
+  "id": {
+    "ELEMENT": "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4",
+    "element-6066-11e4-a52e-4f735466cecf": "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4"
+  }
+}
+D 2021-06-07 09:52:40:638 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4",
+    "element-6066-11e4-a52e-4f735466cecf": "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4"
+  }
+} }
+D 2021-06-07 09:52:40:638 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4",
+    "element-6066-11e4-a52e-4f735466cecf": "fef1e55a-f2f7-4cf8-abe3-c3234b8143b4"
+  }
+} }
+D 2021-06-07 09:52:40:638 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing switchToFrame command
+D 2021-06-07 09:52:40:639 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:40:639 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: switchToFrame
+D 2021-06-07 09:52:40:662 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for switchToFrame complete
+D 2021-06-07 09:52:40:662 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:40:662 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:40:663 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:40:668 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "\u002f\u002fspan[.='Mod Distribucion y Olas']",
+  "using": "xpath"
+}
+D 2021-06-07 09:52:40:668 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002fspan[.='Mod Distribucion y Olas']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:40:668 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002fspan[.='Mod Distribucion y Olas']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:40:668 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:40:669 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:40:669 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+D 2021-06-07 09:52:40:669 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(65) Using FindElement atom to locate element having xpath = //span[.='Mod Distribucion y Olas']
+D 2021-06-07 09:52:40:692 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:40:699 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:40:709 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:40:713 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(401) -2147352570 [Nombre desconocido.]: Unable to get dispatch ID (dispid) for property toJSON
+D 2021-06-07 09:52:40:713 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(325) No toJSON property found on IDispatch
+D 2021-06-07 09:52:40:720 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:40:720 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:40:721 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "55cccb5b-dc18-4b17-9c58-c3116bc57583"
+	}
+}
+D 2021-06-07 09:52:40:721 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:40:724 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "55cccb5b-dc18-4b17-9c58-c3116bc57583"
+	}
+}
+D 2021-06-07 09:52:40:730 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/55cccb5b-dc18-4b17-9c58-c3116bc57583/click {
+  "id": "55cccb5b-dc18-4b17-9c58-c3116bc57583"
+}
+D 2021-06-07 09:52:40:730 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "55cccb5b-dc18-4b17-9c58-c3116bc57583" }, "parameters" : {
+  "id": "55cccb5b-dc18-4b17-9c58-c3116bc57583"
+} }
+D 2021-06-07 09:52:40:730 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "55cccb5b-dc18-4b17-9c58-c3116bc57583" }, "parameters" : {
+  "id": "55cccb5b-dc18-4b17-9c58-c3116bc57583"
+} }
+D 2021-06-07 09:52:40:730 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing click command
+D 2021-06-07 09:52:40:731 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:40:731 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: click
+D 2021-06-07 09:52:40:762 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:40:773 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:40:782 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:40:788 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:40:806 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:40:824 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:40:844 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:40:849 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:40:860 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:40:880 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:40:902 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 25, 235, 139, 16
+D 2021-06-07 09:52:40:939 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:40:946 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:40:955 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:40:960 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:40:971 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:40:983 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:40:986 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:41:000 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:016 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:41:035 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:41:041 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:41:055 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:069 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:41:073 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(451) Queueing SendInput structure for mouse move (origin: 55cccb5b-dc18-4b17-9c58-c3116bc57583, x: 94, y: 243)
+D 2021-06-07 09:52:41:073 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(510) Queueing SendInput structure for mouse button down
+D 2021-06-07 09:52:41:073 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(533) Queueing SendInput structure for mouse button up
+D 2021-06-07 09:52:41:073 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 3 input events
+D 2021-06-07 09:52:41:145 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for click complete
+D 2021-06-07 09:52:41:145 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(923) Command handler requested wait. This will cause a minimal wait of at least 50 milliseconds.
+D 2021-06-07 09:52:41:145 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:41:207 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:41:208 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:41:208 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:41:210 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:41:260 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(632) Not in navigating state
+D 2021-06-07 09:52:41:260 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(263) Wait complete. Setting serialized response to deferred value {
+	"value" : null
+}
+D 2021-06-07 09:52:41:270 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:41:276 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "\u002f\u002fspan[.='Mod Wave Mgmt Inquiries']",
+  "using": "xpath"
+}
+D 2021-06-07 09:52:41:276 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002fspan[.='Mod Wave Mgmt Inquiries']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:41:276 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002fspan[.='Mod Wave Mgmt Inquiries']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:41:276 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:41:277 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:41:277 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+D 2021-06-07 09:52:41:277 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(65) Using FindElement atom to locate element having xpath = //span[.='Mod Wave Mgmt Inquiries']
+D 2021-06-07 09:52:41:305 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:41:309 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:41:316 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:41:319 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(401) -2147352570 [Nombre desconocido.]: Unable to get dispatch ID (dispid) for property toJSON
+D 2021-06-07 09:52:41:319 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(325) No toJSON property found on IDispatch
+D 2021-06-07 09:52:41:324 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:41:325 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:41:325 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "1bbd5608-6e86-4f6b-8813-f60d518b6a88"
+	}
+}
+D 2021-06-07 09:52:41:325 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:41:332 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "1bbd5608-6e86-4f6b-8813-f60d518b6a88"
+	}
+}
+D 2021-06-07 09:52:41:337 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/1bbd5608-6e86-4f6b-8813-f60d518b6a88/click {
+  "id": "1bbd5608-6e86-4f6b-8813-f60d518b6a88"
+}
+D 2021-06-07 09:52:41:337 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "1bbd5608-6e86-4f6b-8813-f60d518b6a88" }, "parameters" : {
+  "id": "1bbd5608-6e86-4f6b-8813-f60d518b6a88"
+} }
+D 2021-06-07 09:52:41:337 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "1bbd5608-6e86-4f6b-8813-f60d518b6a88" }, "parameters" : {
+  "id": "1bbd5608-6e86-4f6b-8813-f60d518b6a88"
+} }
+D 2021-06-07 09:52:41:337 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing click command
+D 2021-06-07 09:52:41:338 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:41:338 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: click
+D 2021-06-07 09:52:41:606 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:618 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:41:628 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:41:633 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:41:643 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:662 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:41:682 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:41:686 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:41:700 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:708 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:41:737 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 46, 277, 150, 16
+D 2021-06-07 09:52:41:776 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:785 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:41:795 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:41:799 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:810 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:41:820 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:41:824 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:41:837 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:850 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:41:868 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:41:873 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:41:888 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:41:899 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:41:901 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(451) Queueing SendInput structure for mouse move (origin: 1bbd5608-6e86-4f6b-8813-f60d518b6a88, x: 121, y: 285)
+D 2021-06-07 09:52:41:902 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(510) Queueing SendInput structure for mouse button down
+D 2021-06-07 09:52:41:902 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(533) Queueing SendInput structure for mouse button up
+D 2021-06-07 09:52:41:902 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 3 input events
+D 2021-06-07 09:52:41:987 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for click complete
+D 2021-06-07 09:52:41:987 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(923) Command handler requested wait. This will cause a minimal wait of at least 50 milliseconds.
+D 2021-06-07 09:52:41:987 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:42:049 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:42:049 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:42:049 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:42:052 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:42:102 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(632) Not in navigating state
+D 2021-06-07 09:52:42:102 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(263) Wait complete. Setting serialized response to deferred value {
+	"value" : null
+}
+D 2021-06-07 09:52:42:114 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:42:119 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "\u002f\u002fa[.='Cons\u002fMant: Pedido']",
+  "using": "xpath"
+}
+D 2021-06-07 09:52:42:119 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002fa[.='Cons\u002fMant: Pedido']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:42:120 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002fa[.='Cons\u002fMant: Pedido']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:42:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:42:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:42:120 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+D 2021-06-07 09:52:42:120 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(65) Using FindElement atom to locate element having xpath = //a[.='Cons/Mant: Pedido']
+D 2021-06-07 09:52:42:144 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:42:157 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:42:166 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:42:169 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(401) -2147352570 [Nombre desconocido.]: Unable to get dispatch ID (dispid) for property toJSON
+D 2021-06-07 09:52:42:169 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(325) No toJSON property found on IDispatch
+D 2021-06-07 09:52:42:190 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:42:195 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:42:195 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "9ece7fb1-17b8-4ad0-96c2-52451958e714"
+	}
+}
+D 2021-06-07 09:52:42:195 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:42:207 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "9ece7fb1-17b8-4ad0-96c2-52451958e714"
+	}
+}
+D 2021-06-07 09:52:42:214 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/9ece7fb1-17b8-4ad0-96c2-52451958e714/click {
+  "id": "9ece7fb1-17b8-4ad0-96c2-52451958e714"
+}
+D 2021-06-07 09:52:42:214 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "9ece7fb1-17b8-4ad0-96c2-52451958e714" }, "parameters" : {
+  "id": "9ece7fb1-17b8-4ad0-96c2-52451958e714"
+} }
+D 2021-06-07 09:52:42:214 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "9ece7fb1-17b8-4ad0-96c2-52451958e714" }, "parameters" : {
+  "id": "9ece7fb1-17b8-4ad0-96c2-52451958e714"
+} }
+D 2021-06-07 09:52:42:214 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing click command
+D 2021-06-07 09:52:42:216 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:42:216 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: click
+D 2021-06-07 09:52:42:435 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:444 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:42:453 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:42:457 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:42:473 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:486 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:42:505 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:42:509 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:42:524 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:537 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:42:567 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 60, 417, 115, 16
+D 2021-06-07 09:52:42:607 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:612 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:42:621 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:42:624 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1089) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:634 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:42:642 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:42:650 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:42:661 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:673 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:42:691 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:42:699 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:42:708 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:42:718 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:42:720 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(451) Queueing SendInput structure for mouse move (origin: 9ece7fb1-17b8-4ad0-96c2-52451958e714, x: 117, y: 425)
+D 2021-06-07 09:52:42:720 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(510) Queueing SendInput structure for mouse button down
+D 2021-06-07 09:52:42:720 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(533) Queueing SendInput structure for mouse button up
+D 2021-06-07 09:52:42:720 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 3 input events
+D 2021-06-07 09:52:42:804 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for click complete
+D 2021-06-07 09:52:42:804 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(923) Command handler requested wait. This will cause a minimal wait of at least 50 milliseconds.
+D 2021-06-07 09:52:42:804 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:42:812 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/Criteria_Data.asp?scrnname=Pickticket_Inquiry_CD&sessionid=1202006&parms=TranID=2059,TranName={Pickticket}%20Inq/Maint,TranType=WW,AccessType=9,ScreenType=U,ScreenAccess=E,ProdTracking=N,ELSActivityCode=,DisableRowCount=0,FormCustomizeLevel=1,workinfointerface=0,workinfolog=N&target=fraRight&menulaunch=true, TargetFrame: 06DAC99C
+D 2021-06-07 09:52:42:838 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/requator.asp?action=Open_NavBar&scrnname=Pickticket_Inquiry_CD&sessionid=1202006&parms=TranID=2059,TranName={Pickticket}%20Inq/Maint,TranType=WW,AccessType=9,ScreenType=U,ScreenAccess=E,ProdTracking=N,ELSActivityCode=,DisableRowCount=0,FormCustomizeLevel=1,workinfointerface=0,workinfolog=N&target=fraRight&menulaunch=true, TargetFrame: 06DAC99C
+D 2021-06-07 09:52:42:841 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: about:blank, TargetFrame: 06DAC99C
+D 2021-06-07 09:52:42:844 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/title/criteria.asp?sessionid=1202006&parms=TranID=2059,TranName={Pickticket}%20Inq/Maint,TranType=WW,AccessType=9,ScreenType=U,ScreenAccess=E,ProdTracking=N,ELSActivityCode=,DisableRowCount=0,FormCustomizeLevel=1,workinfointerface=0,workinfolog=N, TargetFrame: 06D81594
+D 2021-06-07 09:52:42:847 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/requator.asp?action=Open_Criteria&scrnname=Pickticket_Inquiry_CD&sessionid=1202006&parms=TranID=2059,TranName={Pickticket}%20Inq/Maint,TranType=WW,AccessType=9,ScreenType=U,ScreenAccess=E,ProdTracking=N,ELSActivityCode=,DisableRowCount=0,FormCustomizeLevel=1,workinfointerface=0,workinfolog=N&target=fraRight&menulaunch=true&primarykeys=, TargetFrame: 06DAC8FC
+D 2021-06-07 09:52:42:853 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(60) BeforeNavigate2: Url: http://webqamanh/wmweb/requator.asp?action=Open_Data&scrnname=Pickticket_Inquiry_CD&sessionid=1202006&parms=TranID=2059,TranName={Pickticket}%20Inq/Maint,TranType=WW,AccessType=9,ScreenType=U,ScreenAccess=E,ProdTracking=N,ELSActivityCode=,DisableRowCount=0,FormCustomizeLevel=1,workinfointerface=0,workinfolog=N&target=fraRight&menulaunch=true, TargetFrame: 06DAC8FC
+D 2021-06-07 09:52:42:867 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:42:867 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:42:867 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:42:872 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:42:874 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(653) DocumentComplete event fired, indicating a new navigation.
+D 2021-06-07 09:52:42:877 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:42:877 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:42:931 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:42:931 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:42:931 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:42:934 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:42:975 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:42:977 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:42:977 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:039 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:039 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:039 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:043 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:087 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:43:089 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:089 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:148 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:148 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:148 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:152 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:196 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:43:197 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:197 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:258 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:258 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:262 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:323 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:43:324 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:324 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:383 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:383 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:383 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:394 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:400 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(653) DocumentComplete event fired, indicating a new navigation.
+D 2021-06-07 09:52:43:400 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:400 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:457 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:457 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:457 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:461 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:510 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:43:512 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:512 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:566 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:594 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:644 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:43:645 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:645 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:704 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:704 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:704 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:707 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:43:838 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:43:853 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:43:853 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:43:906 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:43:906 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:43:906 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:43:916 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:058 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:44:058 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:44:123 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:44:123 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:44:123 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:44:127 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:210 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:44:211 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:44:211 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:44:264 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:44:264 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:44:264 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:44:267 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:314 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:44:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:44:316 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:44:376 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:44:376 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:44:376 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:44:379 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:433 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:44:435 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:44:435 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:44:501 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:44:501 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:44:501 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:44:504 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:546 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(665) document.readyState is not 'complete'; it was interactive
+D 2021-06-07 09:52:44:548 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:44:549 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:44:612 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:44:612 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:44:612 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:44:615 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:753 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(255) Wait not complete. Scheduling another wait cycle.
+D 2021-06-07 09:52:44:753 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:44:820 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:44:820 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:44:820 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:44:823 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:44:930 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(632) Not in navigating state
+D 2021-06-07 09:52:44:931 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(263) Wait complete. Setting serialized response to deferred value {
+	"value" : null
+}
+D 2021-06-07 09:52:44:948 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:44:954 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/frame {
+  "id": null
+}
+D 2021-06-07 09:52:44:954 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": null
+} }
+D 2021-06-07 09:52:44:954 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": null
+} }
+D 2021-06-07 09:52:44:954 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing switchToFrame command
+D 2021-06-07 09:52:44:954 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:44:954 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: switchToFrame
+D 2021-06-07 09:52:44:962 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for switchToFrame complete
+D 2021-06-07 09:52:44:963 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:44:963 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:44:978 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:44:987 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/elements {
+  "value": "frame[name='fraBottom'],iframe[name='fraBottom']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:44:987 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraBottom'],iframe[name='fraBottom']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:44:987 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraBottom'],iframe[name='fraBottom']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:44:987 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElements command
+D 2021-06-07 09:52:44:988 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:44:988 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElements
+I 2021-06-07 09:52:44:988 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:45:125 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(127) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+I 2021-06-07 09:52:45:125 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:45:378 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(68) Element is already managed
+D 2021-06-07 09:52:45:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElements complete
+D 2021-06-07 09:52:45:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+		}
+	]
+}
+D 2021-06-07 09:52:45:379 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:386 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+		}
+	]
+}
+D 2021-06-07 09:52:45:391 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/frame {
+  "id": {
+    "ELEMENT": "416f2f2a-04d3-4460-880f-18d1d1e161e3",
+    "element-6066-11e4-a52e-4f735466cecf": "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+  }
+}
+D 2021-06-07 09:52:45:391 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "416f2f2a-04d3-4460-880f-18d1d1e161e3",
+    "element-6066-11e4-a52e-4f735466cecf": "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+  }
+} }
+D 2021-06-07 09:52:45:391 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "416f2f2a-04d3-4460-880f-18d1d1e161e3",
+    "element-6066-11e4-a52e-4f735466cecf": "416f2f2a-04d3-4460-880f-18d1d1e161e3"
+  }
+} }
+D 2021-06-07 09:52:45:392 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing switchToFrame command
+D 2021-06-07 09:52:45:392 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:392 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: switchToFrame
+I 2021-06-07 09:52:45:403 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(215) No child frame focus. Focus is on top-level frame
+D 2021-06-07 09:52:45:460 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for switchToFrame complete
+D 2021-06-07 09:52:45:460 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:45:460 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:482 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:45:487 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/elements {
+  "value": "frame[name='fraRight'],iframe[name='fraRight']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:45:488 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraRight'],iframe[name='fraRight']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:45:488 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraRight'],iframe[name='fraRight']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:45:488 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElements command
+D 2021-06-07 09:52:45:488 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:488 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElements
+D 2021-06-07 09:52:45:502 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(127) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+D 2021-06-07 09:52:45:557 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:45:557 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElements complete
+D 2021-06-07 09:52:45:557 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "c44323dc-057a-4413-9e86-b428333ee78c"
+		}
+	]
+}
+D 2021-06-07 09:52:45:557 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:560 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "c44323dc-057a-4413-9e86-b428333ee78c"
+		}
+	]
+}
+D 2021-06-07 09:52:45:565 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/frame {
+  "id": {
+    "ELEMENT": "c44323dc-057a-4413-9e86-b428333ee78c",
+    "element-6066-11e4-a52e-4f735466cecf": "c44323dc-057a-4413-9e86-b428333ee78c"
+  }
+}
+D 2021-06-07 09:52:45:566 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "c44323dc-057a-4413-9e86-b428333ee78c",
+    "element-6066-11e4-a52e-4f735466cecf": "c44323dc-057a-4413-9e86-b428333ee78c"
+  }
+} }
+D 2021-06-07 09:52:45:566 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "c44323dc-057a-4413-9e86-b428333ee78c",
+    "element-6066-11e4-a52e-4f735466cecf": "c44323dc-057a-4413-9e86-b428333ee78c"
+  }
+} }
+D 2021-06-07 09:52:45:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing switchToFrame command
+D 2021-06-07 09:52:45:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:566 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: switchToFrame
+D 2021-06-07 09:52:45:605 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for switchToFrame complete
+D 2021-06-07 09:52:45:605 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:45:605 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:609 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:45:614 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/elements {
+  "value": "frame[name='fraCriteria'],iframe[name='fraCriteria']",
+  "using": "css selector"
+}
+D 2021-06-07 09:52:45:614 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraCriteria'],iframe[name='fraCriteria']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:45:614 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "frame[name='fraCriteria'],iframe[name='fraCriteria']",
+  "using": "css selector"
+} }
+D 2021-06-07 09:52:45:614 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElements command
+D 2021-06-07 09:52:45:614 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:614 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElements
+D 2021-06-07 09:52:45:626 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(127) Element location strategy is CSS selectors, but document does not support CSS selectors. Falling back to using the Sizzle JavaScript CSS selector engine.
+D 2021-06-07 09:52:45:697 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:45:698 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElements complete
+D 2021-06-07 09:52:45:699 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "1942cc94-a87d-4c1e-a4f6-6989a2c87e25"
+		}
+	]
+}
+D 2021-06-07 09:52:45:699 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:701 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	[
+		{
+			"element-6066-11e4-a52e-4f735466cecf" : "1942cc94-a87d-4c1e-a4f6-6989a2c87e25"
+		}
+	]
+}
+D 2021-06-07 09:52:45:706 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/frame {
+  "id": {
+    "ELEMENT": "1942cc94-a87d-4c1e-a4f6-6989a2c87e25",
+    "element-6066-11e4-a52e-4f735466cecf": "1942cc94-a87d-4c1e-a4f6-6989a2c87e25"
+  }
+}
+D 2021-06-07 09:52:45:707 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "1942cc94-a87d-4c1e-a4f6-6989a2c87e25",
+    "element-6066-11e4-a52e-4f735466cecf": "1942cc94-a87d-4c1e-a4f6-6989a2c87e25"
+  }
+} }
+D 2021-06-07 09:52:45:707 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "switchToFrame", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "id": {
+    "ELEMENT": "1942cc94-a87d-4c1e-a4f6-6989a2c87e25",
+    "element-6066-11e4-a52e-4f735466cecf": "1942cc94-a87d-4c1e-a4f6-6989a2c87e25"
+  }
+} }
+D 2021-06-07 09:52:45:707 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing switchToFrame command
+D 2021-06-07 09:52:45:707 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:707 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: switchToFrame
+D 2021-06-07 09:52:45:725 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for switchToFrame complete
+D 2021-06-07 09:52:45:725 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:45:725 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:733 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:45:738 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element {
+  "value": "\u002f\u002finput[@name='PKTCTRLNBR']",
+  "using": "xpath"
+}
+D 2021-06-07 09:52:45:738 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002finput[@name='PKTCTRLNBR']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:45:738 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "value": "\u002f\u002finput[@name='PKTCTRLNBR']",
+  "using": "xpath"
+} }
+D 2021-06-07 09:52:45:738 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing findElement command
+D 2021-06-07 09:52:45:739 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:739 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: findElement
+D 2021-06-07 09:52:45:739 C:\Projects\webdriver\cpp\iedriver\ElementFinder.cpp(65) Using FindElement atom to locate element having xpath = //input[@name='PKTCTRLNBR']
+D 2021-06-07 09:52:45:761 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:45:784 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:45:791 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(105) Result type is JScriptTypeInfo
+D 2021-06-07 09:52:45:795 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(401) -2147352570 [Nombre desconocido.]: Unable to get dispatch ID (dispid) for property toJSON
+D 2021-06-07 09:52:45:796 C:\Projects\webdriver\cpp\iedriver\VariantUtilities.cpp(325) No toJSON property found on IDispatch
+D 2021-06-07 09:52:45:803 C:\Projects\webdriver\cpp\iedriver\ElementRepository.cpp(58) Element is not yet managed
+D 2021-06-07 09:52:45:804 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for findElement complete
+D 2021-06-07 09:52:45:804 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "07f7593f-e3f4-4414-ad49-e4117a57f945"
+	}
+}
+D 2021-06-07 09:52:45:804 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:45:811 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : 
+	{
+		"element-6066-11e4-a52e-4f735466cecf" : "07f7593f-e3f4-4414-ad49-e4117a57f945"
+	}
+}
+D 2021-06-07 09:52:45:816 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/execute/sync {
+  "script": "arguments[0].setAttribute('style', 'background: yellow; border: 3px solid blue;');",
+  "args": [
+    {
+      "ELEMENT": "07f7593f-e3f4-4414-ad49-e4117a57f945",
+      "element-6066-11e4-a52e-4f735466cecf": "07f7593f-e3f4-4414-ad49-e4117a57f945"
+    }
+  ]
+}
+D 2021-06-07 09:52:45:816 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "script": "arguments[0].setAttribute('style', 'background: yellow; border: 3px solid blue;');",
+  "args": [
+    {
+      "ELEMENT": "07f7593f-e3f4-4414-ad49-e4117a57f945",
+      "element-6066-11e4-a52e-4f735466cecf": "07f7593f-e3f4-4414-ad49-e4117a57f945"
+    }
+  ]
+} }
+D 2021-06-07 09:52:45:816 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {
+  "script": "arguments[0].setAttribute('style', 'background: yellow; border: 3px solid blue;');",
+  "args": [
+    {
+      "ELEMENT": "07f7593f-e3f4-4414-ad49-e4117a57f945",
+      "element-6066-11e4-a52e-4f735466cecf": "07f7593f-e3f4-4414-ad49-e4117a57f945"
+    }
+  ]
+} }
+D 2021-06-07 09:52:45:816 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing executeScript command
+D 2021-06-07 09:52:45:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:817 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: executeScript
+D 2021-06-07 09:52:45:820 C:\Projects\webdriver\cpp\iedriver\Script.cpp(462) Creating synchronization event for new thread
+D 2021-06-07 09:52:45:820 C:\Projects\webdriver\cpp\iedriver\Script.cpp(482) Starting new thread
+D 2021-06-07 09:52:45:820 C:\Projects\webdriver\cpp\iedriver\Script.cpp(491) Waiting for new thread to be ready for messages
+D 2021-06-07 09:52:45:821 C:\Projects\webdriver\cpp\iedriver\Script.cpp(515) Marshaling document to stream to send to new thread
+D 2021-06-07 09:52:45:842 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for executeScript complete
+D 2021-06-07 09:52:45:842 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(912) Awaiting completion of in-progress asynchronous JavaScript execution.
+D 2021-06-07 09:52:45:843 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:876 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:890 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:908 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:932 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:954 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:966 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:45:972 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/07f7593f-e3f4-4414-ad49-e4117a57f945/click {
+  "id": "07f7593f-e3f4-4414-ad49-e4117a57f945"
+}
+D 2021-06-07 09:52:45:972 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "07f7593f-e3f4-4414-ad49-e4117a57f945" }, "parameters" : {
+  "id": "07f7593f-e3f4-4414-ad49-e4117a57f945"
+} }
+D 2021-06-07 09:52:45:972 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "07f7593f-e3f4-4414-ad49-e4117a57f945" }, "parameters" : {
+  "id": "07f7593f-e3f4-4414-ad49-e4117a57f945"
+} }
+D 2021-06-07 09:52:45:973 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing click command
+D 2021-06-07 09:52:45:973 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:45:973 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: click
+D 2021-06-07 09:52:45:991 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:013 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:050 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:057 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:079 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:098 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:118 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:124 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:148 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:164 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:185 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:188 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:213 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:225 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:46:242 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 281, 147, 155, 22
+D 2021-06-07 09:52:46:299 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:308 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:46:320 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:46:321 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:335 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:374 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:377 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:401 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:415 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:433 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:436 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:457 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:474 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:495 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:499 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:509 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:533 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:46:537 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(451) Queueing SendInput structure for mouse move (origin: 07f7593f-e3f4-4414-ad49-e4117a57f945, x: 358, y: 158)
+D 2021-06-07 09:52:46:537 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(510) Queueing SendInput structure for mouse button down
+D 2021-06-07 09:52:46:537 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(533) Queueing SendInput structure for mouse button up
+D 2021-06-07 09:52:46:537 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 3 input events
+D 2021-06-07 09:52:46:641 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for click complete
+D 2021-06-07 09:52:46:641 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(923) Command handler requested wait. This will cause a minimal wait of at least 50 milliseconds.
+D 2021-06-07 09:52:46:641 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(969) Creating wait thread with deferred response of `{
+	"value" : null
+}`
+D 2021-06-07 09:52:46:706 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(222) Starting wait cycle.
+D 2021-06-07 09:52:46:706 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(246) Beginning wait.
+D 2021-06-07 09:52:46:706 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(567) Navigate Events Completed.
+D 2021-06-07 09:52:46:709 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(627) Waiting for document to complete...
+D 2021-06-07 09:52:46:825 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(632) Not in navigating state
+D 2021-06-07 09:52:46:825 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(263) Wait complete. Setting serialized response to deferred value {
+	"value" : null
+}
+D 2021-06-07 09:52:46:832 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:46:838 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: POST /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4/element/07f7593f-e3f4-4414-ad49-e4117a57f945/value {
+  "id": "07f7593f-e3f4-4414-ad49-e4117a57f945",
+  "text": "110363832",
+  "value": [
+    "1",
+    "1",
+    "0",
+    "3",
+    "6",
+    "3",
+    "8",
+    "3",
+    "2"
+  ]
+}
+D 2021-06-07 09:52:46:838 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "07f7593f-e3f4-4414-ad49-e4117a57f945" }, "parameters" : {
+  "id": "07f7593f-e3f4-4414-ad49-e4117a57f945",
+  "text": "110363832",
+  "value": [
+    "1",
+    "1",
+    "0",
+    "3",
+    "6",
+    "3",
+    "8",
+    "3",
+    "2"
+  ]
+} }
+D 2021-06-07 09:52:46:838 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4", "id" : "07f7593f-e3f4-4414-ad49-e4117a57f945" }, "parameters" : {
+  "id": "07f7593f-e3f4-4414-ad49-e4117a57f945",
+  "text": "110363832",
+  "value": [
+    "1",
+    "1",
+    "0",
+    "3",
+    "6",
+    "3",
+    "8",
+    "3",
+    "2"
+  ]
+} }
+D 2021-06-07 09:52:46:838 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing sendKeys command
+D 2021-06-07 09:52:46:838 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:46:838 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: sendKeys
+D 2021-06-07 09:52:46:850 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:865 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:905 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:927 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:46:939 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:46:951 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:46:986 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:46:991 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:47:023 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:47:042 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1261) Element is in a frame.
+D 2021-06-07 09:52:47:089 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1297) Located host frame. Attempting to get hosting element
+D 2021-06-07 09:52:47:126 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1354) Successfully found frame hosting element
+D 2021-06-07 09:52:47:142 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1094) Element is a block element, using IHTMLElement2::getBoundingClientRect
+D 2021-06-07 09:52:47:156 C:\Projects\webdriver\cpp\iedriver\Element.cpp(1176) Element is not in a frame
+D 2021-06-07 09:52:47:206 C:\Projects\webdriver\cpp\iedriver\Element.cpp(755) (x, y, w, h): 281, 147, 155, 22
+D 2021-06-07 09:52:47:276 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(237) Mutex acquired for user interaction.
+D 2021-06-07 09:52:47:276 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 1)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 1)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 1)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 1)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 0)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 0)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 3)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 3)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 6)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 6)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 3)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 3)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 8)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 8)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 3)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 3)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: 2)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: 2)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key down (key: Unidentified)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(696) Queueing SendInput structure for key up (key: Unidentified)
+D 2021-06-07 09:52:47:277 C:\Projects\webdriver\cpp\iedriver\InputManager.cpp(155) Processing a total of 18 input events
+D 2021-06-07 09:52:47:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for sendKeys complete
+D 2021-06-07 09:52:47:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:47:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:47:426 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:47:430 C:\Projects\webdriver\cpp\webdriver-server\server.cc(338) Command: DELETE /session/0f9769c2-08c3-409c-9164-8dea6cfd02e4 {}
+D 2021-06-07 09:52:47:430 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "quit", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {} }
+D 2021-06-07 09:52:47:430 C:\Projects\webdriver\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "quit", "locator" : { "sessionid" : "0f9769c2-08c3-409c-9164-8dea6cfd02e4" }, "parameters" : {} }
+D 2021-06-07 09:52:47:431 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(833) Checking for alert before executing quit command
+D 2021-06-07 09:52:47:432 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1035) No alert handle is found
+D 2021-06-07 09:52:47:432 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: quit
+D 2021-06-07 09:52:47:440 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for quit complete
+D 2021-06-07 09:52:47:440 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : null
+}
+D 2021-06-07 09:52:47:440 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+D 2021-06-07 09:52:52:818 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(147) Not all browsers have been deallocated!
+D 2021-06-07 09:52:52:825 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 0: 2
+D 2021-06-07 09:52:52:825 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 1: 1
+D 2021-06-07 09:52:52:825 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 2: 2
+D 2021-06-07 09:52:52:833 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 3: 16
+D 2021-06-07 09:52:52:833 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 4: 3
+D 2021-06-07 09:52:52:833 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 5: 3
+D 2021-06-07 09:52:52:833 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 6: 4
+D 2021-06-07 09:52:52:849 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 0: 40
+D 2021-06-07 09:52:52:851 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 1: 41
+D 2021-06-07 09:52:52:854 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 2: 41
+D 2021-06-07 09:52:52:856 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 3: 9
+D 2021-06-07 09:52:52:857 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(365) accRole for child with index 4: 9
+D 2021-06-07 09:52:52:859 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(90) Closing alert using SendMessage
+D 2021-06-07 09:52:53:040 C:\Projects\webdriver\cpp\iedriver\Alert.cpp(427) IsWindow() for alert handle 0x00080F8A: 0
+D 2021-06-07 09:52:53:415 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(157) Executor shutdown successful!
+D 2021-06-07 09:52:53:415 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(165) Posting thread shutdown message
+D 2021-06-07 09:52:53:416 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(168) Starting wait for thread completion
+D 2021-06-07 09:52:53:416 C:\Projects\webdriver\cpp\iedriver\IESession.cpp(171) Waiting for thread to end returned 4294967295
+D 2021-06-07 09:52:53:416 C:\Projects\webdriver\cpp\webdriver-server\server.cc(421) Response: {
+	"value" : null
+}
+D 2021-06-07 09:52:53:416 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(793) Shutdown message received
+D 2021-06-07 09:52:53:418 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(129) Entering IECommandExecutor::OnDestroy
+D 2021-06-07 09:52:53:418 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(131) Clearing managed element cache
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(134) Closing command handler repository
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(136) Closing element finder
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(138) Closing input manager
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(140) Closing proxy manager
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(142) Closing browser factory
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(144) Posting quit message
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(146) Leaving IECommandExecutor::OnDestroy
+D 2021-06-07 09:52:53:425 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(795) Returned from DestroyWindow()
+D 2021-06-07 09:52:53:426 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(808) Exited IECommandExecutor thread message loop

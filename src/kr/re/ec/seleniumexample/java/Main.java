@@ -1,11 +1,14 @@
 package kr.re.ec.seleniumexample.java;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 
 public class Main {
+	static WebDriver driver = null;
 	public static void main(String[] args) {
 		try {
 			System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
@@ -15,7 +18,8 @@ public class Main {
 			options.ignoreZoomSettings();
 			options.withInitialBrowserUrl("http://webqamanh/wmweb/");
 			
-			WebDriver driver = new InternetExplorerDriver(options); 
+			driver = new InternetExplorerDriver(options); 
+			driver.manage().window().maximize();
 	
 			//driver.get("http://webqamanh/wmweb/");
 			
@@ -36,9 +40,10 @@ public class Main {
 			driver.switchTo().frame("fraBottom");
 			driver.switchTo().frame("fraRight");
 			driver.switchTo().frame("fraCriteria");
-	
-			driver.findElement(By.name("PKTCTRLNBR")).click();
-			driver.findElement(By.name("PKTCTRLNBR")).sendKeys(numeroOrden);
+			WebElement Pickticket = driver.findElement(By.xpath("//input[@name='PKTCTRLNBR']"));
+			HighLightElement(Pickticket);
+			Pickticket.click();
+			Pickticket.sendKeys(numeroOrden);
 	
 			driver.quit();
 		} catch (InterruptedException e) {
@@ -46,4 +51,11 @@ public class Main {
 			e.printStackTrace();
 		}
 	}
+    public static void HighLightElement(WebElement element) {
+		ExecuteJsScript("arguments[0].setAttribute('style', 'background: yellow; border: 3px solid blue;');", element);
+    }
+	public static void ExecuteJsScript(String script, java.lang.Object... args) {
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript(script, args);
+    }
 }
